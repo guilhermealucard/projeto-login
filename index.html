@@ -10,15 +10,26 @@
   <main>
     <section id="login">
       <div id="imagem">
-        <img src="imagens/metal.jpg" alt="imagem-login">
-      </div>
+        
       <div id="formulario">
         <h1>Login</h1>
         <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-        <form action="login.php" method="post"></form>
-
-      </div>
+        <form action="login.php" method="post">
+          <div><label for="id-email">Email:</label>
+          <input type="email" name="email" id="id-email" placeholder="seu e-mail" autocomplete="email"></div>
+          <div>
+            <label for="id-senha">Senha:</label>
+            <input type="password" name="senha" id="id-senha" placeholder="sua senha" autocomplete="current-password">
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar">
+          </div>
+            <div class="submit">
+              <input type="button" value="Esqueci a senha">
+            </div>
+          
+        </form>
     </section>
   </main>
 </body>
