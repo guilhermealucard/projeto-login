@@ -5,9 +5,24 @@ Paleta de cores
 Verde: #49a09d
 Lilás: #5f2c82
 */
-@media screen and (min-width: ) {
-  
+
+*{
+  padding: 0;
+  margin: 0;
 }
+
 body{
   background: linear-gradient(#49a09d, #5f2c82) no-repeat fixed;
+  max-width: 768px;
+}
+
+section{
+  background-color: rgb(185, 184, 182);
+  border-radius: 10px;
+  margin: 200px;
+}
+
+section#imagem{
+  background-size: contain;
+  
 }
