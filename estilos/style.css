@@ -42,10 +42,15 @@ section#login {
 }
 
 section#login > div#imagem{
+  display: block;
   background: #5f2c82 url(../imagens/metal.jpg);
   background-size: cover;
   height: 200px;
   background-position: left bottom;
 }
 
-section#login
+section#login > div#formulario{
+  display: block;
+  padding: 10px;
+
+}
